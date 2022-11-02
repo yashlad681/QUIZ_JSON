@@ -15,9 +15,9 @@ Step 2: You can execute command ``` py reader.py ```  file and it should start d
 Answers are case sensitive. Input should be same as predefined answer.
 For e.g If New Delhi is in options and correct answer according to you. Input has to be exactly same as options including capital and small letters.
 ```diff
-             @@Option      Input@@
-Correct    + New Delhi == New Delhi
-Incorrect  - New Delhi != new delhi
+ @@Option      Input@@
++ New Delhi == New Delhi
+- New Delhi != new delhi
 ```
 
 ## Attaching Execution Snapshots
