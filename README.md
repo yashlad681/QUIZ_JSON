@@ -16,8 +16,8 @@ Answers are case sensitive. Input should be same as predefined answer.
 For e.g If New Delhi is in options and correct answer according to you. Input has to be exactly same as options including capital and small letters.
 ```diff
 @@ Option      Input @@
-+ New Delhi == New Delhi
-- New Delhi != new delhi
++ New Delhi == New Delhi (Correct)
+- New Delhi != new delhi (Incorrect)
 ```
 
 ## Attaching Execution Snapshots
