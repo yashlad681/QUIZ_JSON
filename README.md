@@ -12,7 +12,7 @@ Step 1: Please execute below command to get all dependencies
 Step 2: You can execute command ``` py reader.py ```  file and it should start displaying questions from json file.
 
 ## Note
-Answers are case sensitive. Input should be same as predefined answer.
+Answers are case sensitive. Input should be exactly same as mentioned in options along with case sensitivity.
 For e.g If New Delhi is in options and correct answer according to you. Input has to be exactly same as options including capital and small letters.
 ```diff
 @@ Options      Input By User @@
