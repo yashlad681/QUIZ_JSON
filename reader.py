@@ -16,14 +16,18 @@ for i in d['Quiz']:
 for j in range(len(in_dict)):
     print(in_dict[j]["question"])
     arr_len = len(in_dict[j]["choices"])
+    option=ord('a')
+    ans_dict=dict()
     for k in range(arr_len):
-        print(str(k+1)+": "+in_dict[j]["choices"][k])
+        print(str(chr(option))+": "+in_dict[j]["choices"][k])
+        ans_dict[chr(option)]=in_dict[j]["choices"][k]
+        option=option+1
     ans = input("Type Answer:")
 
-    if ans==in_dict[j]["correct_ans"]:
-             print(f"{ans} is a Correct Answer!!\n")
+    if ans_dict[ans]==in_dict[j]["correct_ans"]:
+             print(f"Option {ans} i.e {ans_dict[ans]} is a Correct Answer!!\n")
     else:
-        print("Wrong Answer, Correct Answer is "+in_dict[j]["correct_ans"])
+        print(f" {ans_dict[ans]} is Wrong Answer, Correct Answer is  "+in_dict[j]["correct_ans"])
 
 
 
