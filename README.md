@@ -5,10 +5,9 @@
 The reader.py python file reads file.json and asks MCQ based questions.
 
 ## Setup
-
-Step 1: Please execute below command to get all dependencies
-       ``` pip install -r requirements.txt ```
        
+Step 1: Clone the repo on your system and then changed directory to cloned repo
+
 Step 2: You can execute command ``` py reader.py ```  file and it should start displaying questions from json file.
 
 ## Note
