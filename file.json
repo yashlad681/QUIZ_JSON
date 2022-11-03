@@ -65,10 +65,10 @@
             "choices": [
                 "15th August",
                 "24th January",
-                "Cheetah",
-                "Jaguar"
+                "10th Dec",
+                "!4th November"
             ],
-            "correct_ans": "Tiger"
+            "correct_ans": "15th August"
         }
     ]
 }
